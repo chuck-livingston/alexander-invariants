@@ -4,6 +4,13 @@ This repository contains tools and data for working with Alexander invariants of
 
 ---
 
+## Contact
+
+For questions, comments, or collaboration, please contact:  
+Charles Livingston – livingst@iu.edu
+
+---
+
 ## Files
 
 1. **Alexander_Invariants.pdf**  
