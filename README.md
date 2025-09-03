@@ -54,4 +54,5 @@ sage: pd = find_pd_from_name('K8a18'); print(pd)
 sage: alexander_invariants(pd)
 [(t^2 - 3*t + 1) * (t^2 - t + 1)^2, t^2 - t + 1]
 
+=====================================
 For more detailed documentation, see alexander_invariants_examples.ipynb and the source code.
