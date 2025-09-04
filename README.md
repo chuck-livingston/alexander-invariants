@@ -30,13 +30,13 @@ Charles Livingston – livingst@iu.edu
    A database for supplementary functions to find data  
    about prime knots of 16 crossings or less.  MUST BE  
    UNZIPPED FOR ACCESS TO 16 CROSSING DATABASE. CONTAINED
-   IN "RELEASES" OR AT
+   IN "RELEASES" OR AT  
    github.com/chuck-livingston/alexander-invariants/releases  
 
 6. **PD16Complete.txt**  
    A list of prime knots of 16 crossing or less with  
    names and indices.  MUST BE UNZIPPED. CONTAINED
-   IN "RELEASES" OR AT
+   IN "RELEASES" OR AT  
    github.com/chuck-livingston/alexander-invariants/releases  
 
 
