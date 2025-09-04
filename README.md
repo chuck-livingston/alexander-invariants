@@ -26,8 +26,8 @@ Charles Livingston – livingst@iu.edu
 
 4. **pd_database.sqlite.zip**  
    A database for supplementary functions to find data  
-   about prime knots of 16 crossings or less. MUST BE
-   UNZIPPED FOR ACCESS TO 16 CROSSING DATABASE
+   about prime knots of 16 crossings or less.  MUST BE
+   UNZIPPED FOR ACCESS TO 16 CROSSING DATABASE.  
 
 5. **PD16Complete.txt**  
    A list of prime knots of 16 crossing or less with  
