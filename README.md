@@ -26,14 +26,19 @@ Charles Livingston – livingst@iu.edu
    A Jupyter notebook with examples demonstrating the  
    use of the program, including optional parameters.
 
-4. **pd_database.sqlite.zip**  
+4. **pd_database.sqlite.zip** 
    A database for supplementary functions to find data  
    about prime knots of 16 crossings or less.  MUST BE  
-   UNZIPPED FOR ACCESS TO 16 CROSSING DATABASE.  
+   UNZIPPED FOR ACCESS TO 16 CROSSING DATABASE. CONTAINED
+   IN "RELEASES" OR AT
+   github.com/chuck-livingston/alexander-invariants/releases  
 
-5. **PD16Complete.txt**  
+6. **PD16Complete.txt**  
    A list of prime knots of 16 crossing or less with  
-   names and indices.  MUST BE UNZIPPED.
+   names and indices.  MUST BE UNZIPPED. CONTAINED
+   IN "RELEASES" OR AT
+   github.com/chuck-livingston/alexander-invariants/releases  
+
 
 ---
 
