@@ -1,7 +1,9 @@
 # Alexander Invariants
 
 This repository contains tools and data for working with Alexander invariants of knots: 
-"alexander_invariants.ipynb" gives a basic tutorial. 
+"alexander_invariants.ipynb" gives a basic tutorial.   
+To download databases, go to github.com/chuck-livingston/alexander-invariants/releases
+
 ---
 
 ## Contact
