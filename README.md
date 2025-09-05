@@ -4,7 +4,7 @@ This repository contains tools and data for working with Alexander invariants of
 "alexander_invariants.ipynb" gives a basic tutorial.   
 To download databases, go to "database files",  github.com/chuck-livingston/alexander-invariants/releases .  
 
-the 
+The two data files are "PD16Complete.txt.zip" and "pd_database.sqlite.zip".
 
 ---
 
