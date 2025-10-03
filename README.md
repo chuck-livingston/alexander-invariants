@@ -24,7 +24,8 @@ Chuck Livingston – livingst@iu.edu
 
 3. **alexander_invariants_examples.ipynb**  
    A Jupyter notebook with examples demonstrating the  
-   use of the program, including optional parameters.
+   use of the program, including optional parameters.  Should
+   have kernel set to SageMath.
 
 --------
 
