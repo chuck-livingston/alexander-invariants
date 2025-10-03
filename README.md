@@ -54,7 +54,7 @@ sage: type(alexander_invariants(pd, decomp='primary_decomp')[0][0])
 sage: alexander_invariants(pd, decomp='invariant_factor_decomp')
 [(t^2 - 3*t + 1) * (t^2 - t + 1), t^2 - t + 1]
 
-sage: type( alexander_invariants(pd, decomp='invariant_factor_decomp')[0])
+sage: type(alexander_invariants(pd, decomp='invariant_factor_decomp')[0])
 <class 'sage.structure.factorization.Factorization'>
 
 
