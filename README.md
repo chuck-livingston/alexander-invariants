@@ -1,17 +1,15 @@
 # Alexander Invariants
 
-This repository contains tools and data for working with Alexander invariants of knots: 
-"alexander_invariants.ipynb" gives a basic tutorial.   
-To download databases, go to "database files",  github.com/chuck-livingston/alexander-invariants/releases .  
+This repository contains tools for computing Alexander invariants of knots: 
+"alexander_invariants.ipynb" gives a basic tutorial.  
 
-The two data files are "PD16Complete.txt.zip" and "pd_database.sqlite.zip".
 
 ---
 
 ## Contact
 
 For questions, comments, or collaboration, please contact:  
-Charles Livingston – livingst@iu.edu
+Chuck Livingston – livingst@iu.edu
 
 ---
 
@@ -28,18 +26,7 @@ Charles Livingston – livingst@iu.edu
    A Jupyter notebook with examples demonstrating the  
    use of the program, including optional parameters.
 
-4. **pd_database.sqlite.zip** 
-   A database for supplementary functions to find data  
-   about prime knots of 16 crossings or less.  MUST BE  
-   UNZIPPED FOR ACCESS TO 16 CROSSING DATABASE. CONTAINED
-   IN "RELEASES" OR AT  
-   github.com/chuck-livingston/alexander-invariants/releases  
 
-6. **PD16Complete.txt**  
-   A list of prime knots of 16 crossing or less with  
-   names and indices.  MUST BE UNZIPPED. CONTAINED
-   IN "RELEASES" OR AT  
-   github.com/chuck-livingston/alexander-invariants/releases  
 
 
 ---
