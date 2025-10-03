@@ -1,7 +1,7 @@
 # Alexander Invariants
 
-This repository contains tools for computing Alexander invariants of knots: 
-"alexander_invariants.ipynb" gives a basic tutorial.  
+This repository contains SageMath tools for computing Alexander invariants of knots. The Jupyter notebook 
+"alexander_invariants.ipynb" gives a basic tutorial.  Be sure your kernel is SageMath. 
 
 
 ---
@@ -26,42 +26,35 @@ Chuck Livingston – livingst@iu.edu
    A Jupyter notebook with examples demonstrating the  
    use of the program, including optional parameters.
 
+--------
 
+## Basic Examples in Sage
 
-
----
-
-## Basic Examples
-
-```sage
+```
+sage
 sage: load('alexander_invariants.sage')
 
 sage: pd = [[6,2,7,1],[8,3,9,4],[16,11,1,12],
 ...         [2,14,3,13],[4,15,5,16],[10,6,11,5],
 ...         [12,7,13,8],[14,10,15,9]]
 
-sage: alexander_invariants(pd)
+sage: alexander_invariants(pd)  # = alexander_invariants(pd,decomp='alex_polys_decomp')
 [(t^2 - 3*t + 1) * (t^2 - t + 1)^2, t^2 - t + 1]
+
+sage: type(alexander_invariants(pd)[0])
+<class 'sage.structure.factorization.Factorization'>
 
 sage: alexander_invariants(pd, decomp='primary_decomp')
 [[t^2 - 3*t + 1, [1]], [t^2 - t + 1, [1, 1]]]
 
+sage: type(alexander_invariants(pd, decomp='primary_decomp')[0][0])
+<class 'sage.rings.polynomial.polynomial_integer_dense_flint.Polynomial_integer_dense_flint'>
+
 sage: alexander_invariants(pd, decomp='invariant_factor_decomp')
 [(t^2 - 3*t + 1) * (t^2 - t + 1), t^2 - t + 1]
 
-sage: alexander_invariants(pd, decomp='alex_polys_decomp')
-[(t^2 - 3*t + 1) * (t^2 - t + 1)^2, t^2 - t + 1]
-
-sage: index = find_index_from_name('K8a1'); print(index)
-15
-
-sage: pd = find_pd_from_name('K8a18'); print(pd)
-[[6, 2, 7, 1], [8, 3, 9, 4], [16, 11, 1, 12],
- [2, 14, 3, 13], [4, 15, 5, 16],
- [10, 6, 11, 5], [12, 7, 13, 8], [14, 10, 15, 9]]
-
-sage: alexander_invariants(pd)
-[(t^2 - 3*t + 1) * (t^2 - t + 1)^2, t^2 - t + 1]
+sage: type( alexander_invariants(pd, decomp='invariant_factor_decomp')[0])
+<class 'sage.structure.factorization.Factorization'>
 
 
 For more detailed documentation, see alexander_invariants_examples.ipynb and the source code.
